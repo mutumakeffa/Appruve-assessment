@@ -6,9 +6,9 @@ import AppReducer from './AppReducer';
 // initial state
 const  initialState = {
     subscriptions: [
-        { id: 1, plan: 'Bronze', price: 2000 },
-        { id: 2, plan: 'Silver', price: 3000 },
-        { id: 3, plan: 'Gold', price: 4000 },
+        { id: 1, plan: 'Bronze', price: 2000, description: 'You get a spear' },
+        { id: 2, plan: 'Silver', price: 3000, description: 'You get Vibranium Elements' },
+        { id: 3, plan: 'Gold', price: 4000, description: 'You get all the beauty of Wakanda' },
     ]
 }
 
