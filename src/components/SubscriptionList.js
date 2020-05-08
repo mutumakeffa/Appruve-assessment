@@ -10,7 +10,7 @@ export const SubscriptionList = () => {
         <>
             <div className="card-deck">
                 {subscriptions.map(subscription => (
-                    <Subscription key={Subscription.id} subscription = {subscription}/>
+                    <Subscription key={subscription.id} subscription = {subscription}/>
                 ))}
             </div>
 

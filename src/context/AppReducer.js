@@ -3,7 +3,7 @@ export default (state, action) => {
         case 'ADD_SUBSCRIPTION':
             return {
                 ...state,
-                subscriptions: state.subscriptions.filter(subscription => subscription.id === action.payload)
+                subscription: state.subscriptions.filter(subscription => subscription.id === action.payload)
             }
             
         default:
